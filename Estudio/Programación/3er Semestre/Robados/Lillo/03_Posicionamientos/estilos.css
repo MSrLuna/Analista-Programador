@@ -1,0 +1,57 @@
+div {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+}
+
+.estatico {
+    position: static;
+    background-color: blueviolet;
+}
+/* A diferencia de position: static, todas las demás permiten agregar 4 parámetros:
+1. top: partiendo desde el borde superior, indica en px cuánto se moverá hacia abajo.
+2. right: partiendo desde la derecha, indica los px que se moverá a la izquierda.
+3. bottom: partiendo desde abajo, indica los px que se moverá hacia arriba.
+4. left: partiendo desde la izquierda, indica los px que se moverá a la derecha.
+*/
+
+/* RELATIVE permite a un elemento posicionarse en cualquier lugar que se desee.
+Se require usar los top, left, bottom o right para lograr esto.
+Sus límites son relativos a los elementos que estén a su izq. y arriba.. */
+.relativo {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}
+
+/* Pudiera parecerse a Relative, PERO observamos 2 diferencias importantes:
+1. Absolute hace que el elemento pierda su posición original, por lo que
+los elementos a su derecha asumirán la posición del que ahora es absolute.
+2. Su posición es tomada dependiendo de:
+- si no está dentro de un div relative, entonces toma al body como sus límites.
+- si está dentro de un div relative, entonces los límites se toman desde ese div.
+*/
+.absoluta {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}
+
+/* Mantiene pegado un elemento en una posición de la ventana.
+Además, el espacio original que ocupa se mantiene.. como el relative */
+.pegado {
+    position: sticky;
+    top: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}
+
+.pegado-fixed {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background-color: blueviolet;
+}

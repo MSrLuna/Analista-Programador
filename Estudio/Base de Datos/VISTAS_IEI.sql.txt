@@ -1,0 +1,22 @@
+-- Las VISTAS no son más que SELECTs que quedan guardados en un objeto de ORACLE llamado VIEW
+-- Te darás cuenta que las vistas son como una especie de tablas virtuales
+CREATE VIEW v_empleados_it AS
+    SELECT first_name, last_name, email, department_name
+    FROM employees
+    INNER JOIN departments ON departments.department_id = employees.department_id
+    WHERE department_name = 'IT';
+    
+-- Si necesitas modificar la VISTA, puedes BORRARLA con DROP y luego volver a crearla.
+DROP VIEW v_empleados_it;
+
+-- Podemos consultar los datos de una vista tal como si fuera una tabla..
+SELECT * FROM v_empleados_it WHERE first_name = 'Diana';
+
+
+
+
+
+
+
+
+    

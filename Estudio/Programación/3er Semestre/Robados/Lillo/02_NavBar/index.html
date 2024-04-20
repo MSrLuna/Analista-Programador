@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barra de Navegación</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* Le quitamos los espacios internos y externos que tienen por defecto
+            todos los elementos dentro del body */
+        padding: 0;
+        margin: 0;
+      }
+
+      nav {
+        background-color: rgba(47, 0, 255, 0.912);
+        padding: 10px;
+        margin: 5px;
+        border-radius: 8px;
+        /*
+        1er valor: eje X, desde dónde parte horizontalmente
+        2do valor: eje Y, desde dónde parte verticalmente
+        3er valor: efecto desenfoque (expresado en pixeles)
+        4to valor: color
+        */
+        box-shadow: 10px 10px 10px gray;
+      }
+
+      ul {
+        /* Le quitamos los espacios internos y externos que tienen por defecto
+            todos los elementos dentro de la lista desordenada */
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        border-right: 1px solid;
+        /* border: 1px solid black; */
+      }
+
+      li:hover {
+        /* VER LA SIGUIENTE CLASE: 08/04 */
+        transition-duration: .5s;
+        transform: scale(1.2);
+      }
+
+      a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contáctenos</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

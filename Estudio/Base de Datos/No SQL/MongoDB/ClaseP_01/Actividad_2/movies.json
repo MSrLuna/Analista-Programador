@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Fight Club",
+        "writer": "Chuck Palahniuk",
+        "year": 1999,
+        "actors": [
+        "Brad Pitt",
+        "Edward Norton"
+        ]
+    },
+    {
+        "title": "Pulp Fiction",
+        "writer": "Quentin Tarantino",
+        "year": 1994,
+        "actors": [
+        "John Travolta",
+        "Uma Thurman"
+        ]
+    },
+    {
+        "title": "Inglorious Bastards",
+        "writer": "Quentin Tarantino",
+        "year": 2009,
+        "actors": [
+        "Brad Pitt",
+        "Diane Kruger",
+        "Eli Roth"
+        ]
+    }
+]

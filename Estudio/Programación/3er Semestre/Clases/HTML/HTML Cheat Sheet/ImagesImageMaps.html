@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!-- Declara la versión de HTML utilizada en el documento -->
+<html>
+<head>
+    <title>Ejemplo de Etiquetas HTML</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Etiqueta de imagen -->
+    <img src="imagen.jpg" alt="Descripción de la imagen" /> <!-- Representa una imagen -->
+
+    <!-- Etiqueta de mapa de imagen -->
+    <map name="mapa-imagen">
+        <!-- Define una área en el mapa de imagen -->
+        <area shape="rect" coords="0,0,50,50" alt="Área 1" href="pagina1.html" />
+        <area shape="circle" coords="100,100,50" alt="Área 2" href="pagina2.html" />
+        <area shape="poly" coords="150,150,200,200,150,200" alt="Área 3" href="pagina3.html" />
+    </map> <!-- Define una región activa en una imagen para la cual se puede hacer clic -->
+
+    <!-- Etiqueta de área en el mapa de imagen -->
+    <img src="imagen.jpg" usemap="#mapa-imagen" alt="Descripción de la imagen" /> <!-- Representa una imagen con áreas activas definidas por el mapa de imagen -->
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+    {
+        "rut":216329643,
+        "Nombre":"Franco",
+        "Apellido":"Luna",
+        "Fono":92077639,
+        "Dirección":"Monte Patria",
+        "Casa":1255
+    },
+    {
+        "rut":208767964,
+        "Nombre":"Juan",
+        "Apellido":"Perez",
+        "Fono":99957685,
+        "Dirección":"Av. Costanera",
+        "Casa":1005
+    }
+]

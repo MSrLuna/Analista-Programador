@@ -1,0 +1,13 @@
+/* Estilos para la disposición en filas */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Media query para cambiar a disposición en columnas en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .contenedor {
+      flex-direction: column;
+    }
+  }
+  

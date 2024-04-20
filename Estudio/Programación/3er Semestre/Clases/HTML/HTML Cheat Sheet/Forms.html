@@ -1,0 +1,40 @@
+<!DOCTYPE html> <!-- Declara la versión de HTML utilizada en el documento -->
+<html>
+<head>
+    <title>Ejemplo de Etiquetas HTML</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Etiqueta de formulario -->
+    <form action="/procesar.php" method="post">
+        <!-- Define un conjunto de controles relacionados -->
+        <fieldset>
+            <!-- Define un título para el campo de formulario -->
+            <legend>Información personal</legend>
+            
+            <!-- Etiqueta de etiqueta -->
+            <label for="nombre">Nombre:</label> <!-- Representa una etiqueta descriptiva para un control de formulario -->
+            
+            <!-- Etiqueta de entrada de texto -->
+            <input type="text" id="nombre" name="nombre" /> <!-- Representa un campo de entrada de texto -->
+
+            <!-- Etiqueta de selección de lista desplegable -->
+            <select name="opciones">
+                <!-- Define un grupo de opciones en una lista desplegable -->
+                <optgroup label="Opciones disponibles">
+                    <!-- Define una opción en una lista desplegable -->
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                </optgroup>
+            </select>
+
+            <!-- Etiqueta de área de texto -->
+            <textarea name="mensaje" rows="4" cols="50">Escribe tu mensaje aquí...</textarea> <!-- Representa un área de texto multilínea -->
+
+            <!-- Etiqueta de botón -->
+            <button type="submit">Enviar</button> <!-- Representa un botón de envío de formulario -->
+        </fieldset>
+    </form> <!-- Representa un formulario para enviar datos al servidor -->
+
+</body>
+</html>

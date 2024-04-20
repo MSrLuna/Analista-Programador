@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos sobre elementos</title>
+  </head>
+  <!-- Si quiero cambiar las fuentes de todos los elementos visibles,
+puedo aplicarlo sobre el body.. -->
+  <body
+    style="
+      padding-left: 20px;
+      padding-top: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    "
+  >
+    <!-- FORMA 1: aplicar los estilos directamente en los elementos usando la propiedad style.
+    Style nos pide que pongamos los valores en formato clave: valor, separando
+    con el símbolo ; cuando queremos agregar otro valor más de los estilos -->
+    <div style="background-color: aqua; padding: 8px;">
+    <!-- Si aplico padding al div, verás que el div NO SE MUEVE -->
+      <label>Nombre</label>
+      <input type="text" />
+    </div>
+    <div style="background-color: bisque; margin: 8px;">
+    <!-- PERO, si aplico margin al div, el div COMPLETO se MUEVE-->
+      <label>Apellido</label>
+      <input type="text" />
+    </div>
+    <div>
+    <!-- Si a padding le das UN SOLO VALOR, aplicará el espacio en todos sus bordes.
+    Si les das DOS VALORES, el prímero será para el eje vertical y el segundo para el horizontal. -->
+      <button
+        style="
+          background-color: blue;
+          color: white;
+          padding: 5px 20px;
+          border: 1px solid cyan;
+          border-radius: 8px;
+        "
+      >
+        Guardar
+      </button>
+    </div>
+  </body>
+</html>

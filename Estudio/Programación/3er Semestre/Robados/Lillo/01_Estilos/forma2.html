@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos en cabecera</title>
+    <!-- FORMA 2. Estilos en la cabecera, dentro de la etiqueta style.
+    Estos sirven para aplicar estilos a muchos elementos a la vez -->
+    <style>
+      /* Estos estilos tienen la 2da prioridad sobre los elementos HTML
+      para el navegador WEB */
+      * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      div {
+        margin: 10px;
+      }
+
+      .boton-lindo {
+        color: white;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 8px;
+      }
+      .boton-azul {
+        background-color: blue;
+        border: 1px solid rgba(0, 115, 255, 0.631);
+      }
+      .boton-rojo {
+        background-color: red;
+        border: 1px solid rgba(255, 34, 0, 0.631);
+      }
+      .boton-amarillo {
+        background-color: yellowgreen;
+        border: 1px solid rgba(179, 255, 0, 0.631);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label>Nombre</label>
+      <input type="text" />
+    </div>
+    <div>
+      <label>Apellido</label>
+      <input type="text" />
+    </div>
+    <div>
+      <!-- Se puede asignar más de una clase a cada elemento HTML -->
+      <button class="boton-lindo boton-azul">Guardar</button>
+      <!-- Los estilos aplicados directamente sobre un elemento HTML
+      tienen la 1era prioridad para el navegador web.. -->
+      <button class="boton-lindo" style="background-color: green;">Actualizar</button>
+      <button class="boton-lindo boton-rojo">Eliminar</button>
+      <button class="boton-lindo boton-amarillo">Ver Detalles</button>
+    </div>
+  </body>
+</html>

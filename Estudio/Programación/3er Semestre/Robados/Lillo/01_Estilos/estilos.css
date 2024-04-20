@@ -1,0 +1,41 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
+
+div {
+    margin: 10px;
+}
+
+.boton-lindo {
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 5px 5px;
+}
+
+.boton-azul {
+    background-color: blue;
+    border: 1px solid rgba(0, 115, 255, 0.631);
+}
+
+.boton-rojo {
+    background-color: red;
+    border: 1px solid rgba(255, 34, 0, 0.631);
+}
+
+.boton-naranjo {
+    background-color: orange;
+    border: 1px solid rgb(255, 179, 0);
+}
+
+.boton-amarillo {
+    background-color: yellowgreen;
+    border: 1px solid rgba(179, 255, 0, 0.631);
+}
+
+p span {
+    color: red;
+}

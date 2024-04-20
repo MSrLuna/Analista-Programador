@@ -1,0 +1,40 @@
+[
+    {
+        "codigo":1,
+        "nombre":"Java",
+        "autor":"Borges",
+        "capitulos":12,
+        "editoriales":[
+            "Planeta",
+            "Omega"
+        ]
+    },
+    {
+        "codigo":2,
+        "nombre":"Python",
+        "autor":"Smith",
+        "capitulos":8,
+        "editoriales":[
+            "Planeta"
+        ]
+    },
+    {
+        "codigo":3,
+        "nombre":"Java EE",
+        "autor":"Smith",
+        "capitulos":10,
+        "editoriales":[
+            "Omega"
+        ]
+    },
+    {
+        "codigo":4,
+        "nombre":"Oracle",
+        "autor":"Jordan",
+        "capitulos":6,
+        "editoriales":[
+            "Planeta",
+            "Beta"
+        ]
+    }
+]

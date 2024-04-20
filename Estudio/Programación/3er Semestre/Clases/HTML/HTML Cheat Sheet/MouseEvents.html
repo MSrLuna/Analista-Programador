@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- Declara la versión de HTML utilizada en el documento -->
+<html>
+<head>
+    <title>Ejemplo de Eventos de Ratón HTML</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Define una función que se ejecutará cuando se haga clic en un elemento -->
+    <script>
+        function onClickEvent() {
+            alert('Se ha hecho clic en el elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se haga doble clic en un elemento -->
+    <script>
+        function onDblclickEvent() {
+            alert('Se ha hecho doble clic en el elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se presione el botón del ratón sobre un elemento -->
+    <script>
+        function onMouseDownEvent() {
+            alert('Se ha presionado el botón del ratón sobre el elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se mueva el ratón sobre un elemento -->
+    <script>
+        function onMouseMoveEvent() {
+            alert('Se ha movido el ratón sobre el elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando el ratón salga de un elemento -->
+    <script>
+        function onMouseOutEvent() {
+            alert('El ratón ha salido del elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando el ratón pase sobre un elemento -->
+    <script>
+        function onMouseOverEvent() {
+            alert('El ratón ha pasado sobre el elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se suelte el botón del ratón sobre un elemento -->
+    <script>
+        function onMouseUpEvent() {
+            alert('Se ha soltado el botón del ratón sobre el elemento.');
+        }
+    </script>
+
+    <!-- Asigna las funciones definidas a los eventos correspondientes de los elementos -->
+    <div onClick="onClickEvent()" onDblclick="onDblclickEvent()" onMouseDown="onMouseDownEvent()" 
+    onMouseMove="onMouseMoveEvent()" onMouseOut="onMouseOutEvent()" onMouseOver="onMouseOverEvent()" onMouseUp="onMouseUpEvent()">
+        Haz clic aquí
+    </div>
+</body>
+</html>

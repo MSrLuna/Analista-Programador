@@ -1,0 +1,54 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    font-family: Arial, sans-serif; /* Establece la fuente */
+    background: #f0f0f0; /* Establece el color de fondo de la página */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    width: 300px; /* Establece el ancho del contenedor */
+    margin: 100px auto; /* Centra el contenedor horizontalmente con un margen superior */
+    background: #fff; /* Establece el color de fondo del contenedor */
+    padding: 20px; /* Añade relleno alrededor del contenido dentro del contenedor */
+    border-radius: 10px; /* Establece el radio de borde para hacer esquinas redondeadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave alrededor del contenedor */
+    text-align: center; /* Centra el contenido del contenedor */
+}
+
+/* Estilos para el título h2 dentro del contenedor */
+h2 {
+    margin-bottom: 20px; /* Establece un margen inferior para el título */
+    color: #333; /* Establece el color del texto del título */
+}
+
+/* Estilos para el contenedor de entrada de texto */
+.input-container {
+    margin-bottom: 20px; /* Establece un margen inferior para el contenedor de entrada de texto */
+}
+
+/* Estilos para los campos de entrada de texto y contraseña */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Establece el ancho de los campos de entrada */
+    padding: 10px; /* Añade relleno dentro de los campos de entrada */
+    border: 1px solid #ccc; /* Establece un borde alrededor de los campos de entrada */
+    border-radius: 5px; /* Establece el radio de borde para hacer esquinas redondeadas */
+}
+
+/* Estilos para el botón */
+button {
+    width: 100%; /* Establece el ancho del botón al 100% del contenedor */
+    padding: 10px; /* Añade relleno dentro del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Establece el radio de borde para hacer esquinas redondeadas */
+    background-color: #007bff; /* Establece el color de fondo del botón */
+    color: #fff; /* Establece el color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilos para el botón cuando se pasa el cursor sobre él */
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el cursor sobre él */
+}

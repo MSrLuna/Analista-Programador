@@ -1,0 +1,13 @@
+/* styles.css */
+/* Utilizando Flexbox para alinear elementos verticalmente */
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+  }
+  
+  .item {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+  

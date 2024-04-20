@@ -1,0 +1,17 @@
+/* styles.css */
+/* Uso de selectores para aplicar estilos a elementos específicos en una cuadrícula */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Tres columnas de 100px cada una */
+    grid-gap: 10px; /* Espacio entre las celdas */
+  }
+  
+  .destacado {
+    background-color: yellow; /* Cambia el color de fondo del elemento destacado */
+  }
+  
+  .item {
+    padding: 20px;
+    border: 1px solid black;
+  }
+  

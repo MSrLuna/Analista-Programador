@@ -1,0 +1,31 @@
+<!DOCTYPE html> <!-- Declara la versión de HTML utilizada en el documento -->
+<html>
+<head>
+    <title>Ejemplo de Eventos de Teclado HTML</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Define una función que se ejecutará cuando se presione una tecla -->
+    <script>
+        function onKeyDownEvent() {
+            alert('Se ha presionado una tecla.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se presione y se mantenga presionada una tecla -->
+    <script>
+        function onKeyPressEvent() {
+            alert('Se ha presionado y se mantiene presionada una tecla.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se suelte una tecla -->
+    <script>
+        function onKeyUpEvent() {
+            alert('Se ha soltado una tecla.');
+        }
+    </script>
+
+    <!-- Asigna las funciones definidas a los eventos correspondientes de los elementos -->
+    <input type="text" onKeyDown="onKeyDownEvent()" onKeyPress="onKeyPressEvent()" onKeyUp="onKeyUpEvent()" />
+</body>
+</html>

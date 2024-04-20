@@ -1,0 +1,12 @@
+/* Estilos para el elemento a ocultar en pantallas pequeñas */
+.elemento-a-ocultar {
+    display: block;
+  }
+  
+  /* Media query para ocultar el elemento en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .elemento-a-ocultar {
+      display: none;
+    }
+  }
+  

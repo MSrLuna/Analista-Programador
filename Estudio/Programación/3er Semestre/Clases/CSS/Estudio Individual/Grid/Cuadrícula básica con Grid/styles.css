@@ -1,0 +1,13 @@
+/* styles.css */
+/* Creando una cuadrícula básica con Grid */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Tres columnas de 100px cada una */
+    grid-gap: 10px; /* Espacio entre las celdas */
+  }
+  
+  .item {
+    padding: 20px;
+    border: 1px solid black;
+  }
+  

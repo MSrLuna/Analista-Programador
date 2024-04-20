@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Cajas</title>
+    <style>
+        div {
+            /* Modificar su ancho (width) y alto (height) */
+            width: 200px;
+            height: 70px;
+            /* Padding, el espacio que agrega desde el borde del elemento hacia adentro */
+            /* NOTA ESPECIAL: todas las propiedades que afecten al elemento en sus 4 lados
+            bidimensionales, tiene la opción de modicar de a un lado a la vez.. por ejemplo,
+            existe padding-top, padding-left, padding-right y padding-bottom.. lo mismo pasa
+            con margin, border, etc.. */
+            /* Si ponemos en padding: 2 valores, afectarán el 1ro al eje vertical y el 2do al horizontal */
+            /* Esto aplica con todas las propiedades de esta característica */
+            padding: 15px 10px;
+            /* También podemos ser específicos con cada lado.. */
+            border-top: 4px solid blue;
+            border-right: 2px solid green;
+            border-bottom: 1px solid orange;
+            border-left: 3px solid red;
+            /* Margin, genera espacio desde el borde del elemento hacia afuera */
+            /* Si ponemos 4 valores en margin, nos ahorramos estar usando margin-right, top, etc..
+            El 1er valor corresponde a top, el 2do a right, el 3ro bottom y el 4to left */
+            margin: 20px 0px 0px 40px;
+            /* background-color: blueviolet; */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Este es el modelo de cajas con el que podemos manipular distintos bla blabla
+    </div>
+</body>
+</html>

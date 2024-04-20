@@ -1,0 +1,14 @@
+/* styles.css */
+/* Creando una cuadrícula más compleja con Grid */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-template-rows: 100px 200px; /* Dos filas de alturas fijas */
+    grid-gap: 10px; /* Espacio entre las celdas */
+  }
+  
+  .item {
+    padding: 20px;
+    border: 1px solid black;
+  }
+  

@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- Declara la versión de HTML utilizada en el documento -->
+<html>
+<head>
+    <title>Ejemplo de Eventos HTML</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Define una función que se ejecutará cuando se cargue la página -->
+    <script>
+        function onPageLoad() {
+            alert('La página se ha cargado completamente.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se descargue la página (el usuario navegue fuera de ella) -->
+    <script>
+        function onPageUnload() {
+            alert('La página está siendo descargada (el usuario está navegando fuera de ella).');
+        }
+    </script>
+
+    <!-- Asigna las funciones definidas a los eventos onLoad y onUnload del cuerpo de la página -->
+    <body onLoad="onPageLoad()" onUnload="onPageUnload()">
+        <h1>Eventos onLoad y onUnload</h1>
+        <!-- Contenido de la página -->
+    </body>
+</html>

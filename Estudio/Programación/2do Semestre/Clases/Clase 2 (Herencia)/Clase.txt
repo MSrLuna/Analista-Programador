@@ -1,0 +1,2 @@
+Clase padre es la que da la herencia y las clases hijas son las que reciben la herencia.
+En los diagramas las clases hijas deben apuntar con una flecha a la clase padre.

@@ -1,0 +1,12 @@
+/* Estilos para pantallas grandes */
+body {
+    font-size: 16px;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  

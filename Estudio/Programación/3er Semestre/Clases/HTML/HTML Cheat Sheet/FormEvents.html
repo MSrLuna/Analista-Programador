@@ -1,0 +1,55 @@
+<!DOCTYPE html> <!-- Declara la versión de HTML utilizada en el documento -->
+<html>
+<head>
+    <title>Ejemplo de Eventos HTML</title> <!-- Define el título de la página que se muestra en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Define una función que se ejecutará cuando se pierda el foco de un elemento -->
+    <script>
+        function onBlurEvent() {
+            alert('Se ha perdido el foco del elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando cambie el valor de un elemento -->
+    <script>
+        function onChangeEvent() {
+            alert('El valor del elemento ha cambiado.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando un elemento obtenga el foco -->
+    <script>
+        function onFocusEvent() {
+            alert('El elemento ha obtenido el foco.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se restablezca un formulario -->
+    <script>
+        function onResetEvent() {
+            alert('El formulario ha sido restablecido.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se seleccione un texto en un elemento -->
+    <script>
+        function onSelectEvent() {
+            alert('Se ha seleccionado texto en el elemento.');
+        }
+    </script>
+
+    <!-- Define una función que se ejecutará cuando se envíe un formulario -->
+    <script>
+        function onSubmitEvent() {
+            alert('El formulario ha sido enviado.');
+        }
+    </script>
+
+    <!-- Asigna las funciones definidas a los eventos correspondientes de los elementos -->
+    <input type="text" onBlur="onBlurEvent()" onChange="onChangeEvent()" onFocus="onFocusEvent()" onSelect="onSelectEvent()" />
+    <form onReset="onResetEvent()" onSubmit="onSubmitEvent()">
+        <!-- Contenido del formulario -->
+    </form>
+</body>
+</html>

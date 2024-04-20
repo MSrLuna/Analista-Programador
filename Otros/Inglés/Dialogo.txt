@@ -1,0 +1,11 @@
+1: Hi, how are you today?
+2: Fine, better than yesterday
+
+1: Did you have a bad day yesterday?
+2: Yes, the wether was snowy and i didn´t came to the festival
+
+1: That sucks. were you in home all day?
+2: No, I went out for lunch with my mother
+
+1: What did you do after that?
+2: 

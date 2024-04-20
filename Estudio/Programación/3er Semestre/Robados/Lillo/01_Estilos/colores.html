@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+</head>
+<body>
+    <ul>
+        <!-- Asignamos el color poniendo su nombre en inglés -->
+        <li style="color: blue;">Color por nombre</li>
+        <!-- Partimos con el símbolo # y le damos un número en hexadecimal -->
+        <li style="color: #abc123">Color por hexadecimal</li>
+        <!-- Espera 3 valores que estén entre 0 y 255
+        Param1: color rojo, Param2: color verde, Param3: color azul -->
+        <li style="color: rgb(255, 0, 255)">Color por RGB</li>
+        <!-- Lo mismo que RGB, pero le añade transparencia. El último valore
+        debe ser un número real entre 0 y 1, donde 0 es totalmente transparente -->
+        <li style="color: rgba(255, 0, 255, .5)">Color por RGBA</li>
+        <!-- P1: matiz, P2: saturación, P3: luminosidad -->
+        <li style="color: hsl(125, 100%, 50%)">Color por HSL</li>
+    </ul>
+</body>
+</html>
